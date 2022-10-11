@@ -1,4 +1,4 @@
-# -*- mode: ruby -*-
+## -*- mode: ruby -*-
 # vi: set ft=ruby :
 
 # All Vagrant configuration is done below. The "2" in Vagrant.configure
@@ -13,7 +13,7 @@ Vagrant.configure("2") do |config|
  # Every Vagrant development environment requires a box. You can search for
  # boxes at https://vagrantcloud.com/search.
  config.vm.box = "ubuntu/bionic64"
- config.vm.box_version = "~> 20200304.0.0"
+ config.vm.box_version = "~> 20221010.0.0"
 
  config.vm.network "forwarded_port", guest: 8000, host: 8000
 
